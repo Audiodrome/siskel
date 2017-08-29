@@ -1,10 +1,12 @@
 var movieData = [
   {
+    like: false,
     title: 'Back to the Future',
     year: 1985,
     rating: 10
   },
   {
+    like: false,
     title: 'Primer',
     year: 2004,
     rating: 9

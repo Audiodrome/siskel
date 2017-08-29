@@ -27,6 +27,7 @@
     <script>
       $(function(){
         var movies = new Movies(movieData);
+        // console.log(movies);
         new AppView({el: $('#main'), collection: movies}).render();
       });
     </script>
